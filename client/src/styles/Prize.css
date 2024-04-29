@@ -1,0 +1,67 @@
+
+.prize {
+    display: flex;
+    justify-content: flex-start;
+    align-items: first baseline;
+    flex-direction: column;
+    background-color: #ad80e1;
+    min-height: 50vh;
+    padding: 2rem;
+}
+.prizhdng {
+    width: 90%;
+    padding: 1rem;
+}
+.prizinf {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 90%;
+    padding: 1rem;
+}
+.prizadd {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2rem;
+    width: 90%;
+    padding: 1rem;
+}
+.addbtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.prizlst {
+    /* position: absolute; */
+    width: 90%;
+    padding: 1rem;
+    overflow-x: auto;
+}
+.priztbl {
+    width: 96%;
+}
+th {
+    padding: 1rem;
+}
+td {
+    padding: 1rem;
+    text-align: center;
+}
+.prizimg {
+    width: 10rem;
+    height: 10rem;
+}
+.phtoframe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ad80e1;
+    width: 20rem;
+    height: 20rem;
+}
+.phtoframe img {
+    width: 90%;
+    height: 90%;
+}
